@@ -13,4 +13,7 @@ describe("adder", () => {
     it("should return 0 if no numbers are passed", () => {
         expect(adder()).toBe(0)
     });
+    it("should add any number of arguments", () => {
+        expect(adder(1,2,3,4,5,6)).toBe(21)
+    });
 });
