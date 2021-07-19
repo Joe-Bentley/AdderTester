@@ -1,3 +1,5 @@
-const adder = (a, b) =>  a + b;
+const adder = (a, b, c) =>  {
+    return a + b + c;
+};
 
 module.exports = adder;
